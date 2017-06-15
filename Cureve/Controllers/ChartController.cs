@@ -25,6 +25,7 @@ namespace Cureve.Controllers
         }
         public Product GetChartData()
         {
+           
             var  db = new ChartContext();
             var products = db.Product.ToList();
 
